@@ -1,0 +1,43 @@
+{
+  "name": "roadmap",
+  "version": "0.1.0",
+  "description": "An interactive web site providing a guide for web development with focus on react and dotnet core",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fndaraujo/roadmap.git"
+  },
+  "keywords": [
+    "roadmap",
+    "web development",
+    "web",
+    "react",
+    "dotnet",
+    "dotnet core"
+  ],
+  "author": "Fernando Araujo dos Santos (https://github.com/fndaraujo/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fndaraujo/roadmap/issues"
+  },
+  "homepage": "https://github.com/fndaraujo/roadmap#readme",
+  "dependencies": {
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "5.3.6"
+  },
+  "devDependencies": {
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "2.8.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "app": {
+    "organization": "Fernando",
+    "vendor": "Fernando Araujo dos Santos",
+    "author": "Fernando Araujo dos Santos",
+    "year": 2022,
+    "product": "Roadmap",
+    "version": "0.1.0",
+    "github": "https://github.com/fndaraujo/roadmap"
+  }
+}
