@@ -12,6 +12,10 @@ export default function Document() {
             'An interactive web site providing a roadmap for web development with focus on react and dotnet core technology and ecosystems.'
           }
         />
+        <meta
+          name={'keywords'}
+          content={'roadmap, web development, dotnet core, react'}
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
