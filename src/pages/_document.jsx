@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang={'en-US'}>
       <Head>
         <meta name={'creator'} content={'Fernando Araujo dos Santos'} />
+        <meta name={'author'} content={'Fernando Araujo dos Santos'} />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
