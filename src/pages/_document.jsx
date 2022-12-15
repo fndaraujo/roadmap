@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang={'en-US'}>
       <Head>
+        <meta name={'creator'} content={'Fernando Araujo dos Santos'} />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
