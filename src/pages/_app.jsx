@@ -5,6 +5,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta charSet={'utf-8'} />
+        <meta httpEquiv={'X-UA-Compatible'} content={'IE=edge'} />
       </Head>
       <Component {...pageProps} />
     </>
