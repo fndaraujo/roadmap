@@ -6,6 +6,12 @@ export default function Document() {
       <Head>
         <meta name={'creator'} content={'Fernando Araujo dos Santos'} />
         <meta name={'author'} content={'Fernando Araujo dos Santos'} />
+        <meta
+          name={'description'}
+          content={
+            'An interactive web site providing a roadmap for web development with focus on react and dotnet core technology and ecosystems.'
+          }
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
