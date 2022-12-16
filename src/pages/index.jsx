@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Layout from 'src/components/layout'
 import appConfig from 'roadmap-config'
 import styled from 'styled-components'
 
@@ -43,4 +44,8 @@ export default function Home() {
       </StyledHome>
     </>
   )
+}
+
+Home.getLayout = function getLayout(page) {
+  return <Layout>{page}</Layout>
 }
