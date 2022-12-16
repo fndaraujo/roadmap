@@ -8,17 +8,7 @@ export default function Home() {
       <Head>
         <title>{appConfig.app.product}</title>
       </Head>
-      <div>
-        <h1>roadmap</h1>
-        <p>
-          An interactive web site providing a roadmap for web development with
-          focus on <strong>react</strong> and <strong>dotnet core</strong>{' '}
-          technology and ecosystems.
-        </p>
-        <p className="in-development-notice">
-          <strong>in development</strong>
-        </p>
-      </div>
+      <div>index</div>
     </>
   )
 }
