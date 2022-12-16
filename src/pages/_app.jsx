@@ -1,7 +1,8 @@
 import Head from 'next/head'
 
 export default function App({ Component, pageProps }) {
-  return (
+  const getLayout = Component.getLayout || ((page) => page)
+  return getLayout(
     <>
       <Head>
         <meta charSet={'utf-8'} />
