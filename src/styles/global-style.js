@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
   // Default css.
   body {
     background-color: ghostwhite;
-    color: grey;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
   }
 `
