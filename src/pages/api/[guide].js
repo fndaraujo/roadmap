@@ -1,4 +1,5 @@
 import reactjsData from 'data/reactjs'
+import dotnetData from 'data/dotnet'
 
 export default function handler(request, response) {
   switch (request.method) {
@@ -7,6 +8,9 @@ export default function handler(request, response) {
       switch (guide) {
         case 'reactjs':
           response.status(200).json(reactjsData)
+          break
+        case 'dotnet':
+          response.status(200).json(dotnetData)
           break
         default:
           response.status(404).json({ error: 'endpoint not found' })
