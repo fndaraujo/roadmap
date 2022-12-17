@@ -1,3 +1,9 @@
+import Title from 'src/components/title'
+
 export default function Header() {
-  return <div>header</div>
+  return (
+    <div>
+      <Title />
+    </div>
+  )
 }
