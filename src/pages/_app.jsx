@@ -2,8 +2,7 @@ import Head from 'next/head'
 import { GlobalStyle } from 'src/styles/global-style'
 
 export default function App({ Component, pageProps }) {
-  const getLayout = Component.getLayout || ((page) => page)
-  return getLayout(
+  return (
     <>
       <Head>
         <meta charSet={'utf-8'} />
