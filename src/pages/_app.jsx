@@ -1,9 +1,10 @@
 import Head from 'next/head'
+import Layout from 'src/components/layout'
 import { GlobalStyle } from 'src/styles/global-style'
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
+    <Layout>
       <Head>
         <meta charSet={'utf-8'} />
         <meta httpEquiv={'X-UA-Compatible'} content={'IE=edge'} />
@@ -14,6 +15,6 @@ export default function App({ Component, pageProps }) {
       </Head>
       <GlobalStyle />
       <Component {...pageProps} />
-    </>
+    </Layout>
   )
 }
