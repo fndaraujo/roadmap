@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Layout from 'src/components/layout'
 import appConfig from 'roadmap-config'
 
 export default function Home() {
@@ -11,8 +10,4 @@ export default function Home() {
       <div>index</div>
     </>
   )
-}
-
-Home.getLayout = function getLayout(page) {
-  return <Layout>{page}</Layout>
 }
