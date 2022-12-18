@@ -22,8 +22,10 @@ export default function Header() {
         <li>
           <Link href={'/dotnet'}>dotnet core</Link>
         </li>
+        <li>
+          <Link href={'/reactjs'}>react js</Link>
+        </li>
       </ul>
-      <Link href={'/reactjs'}>react js</Link>
     </div>
   )
 }
