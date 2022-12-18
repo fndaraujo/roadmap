@@ -7,6 +7,7 @@ export default function Header() {
   return (
     <div>
       <Title title={productName} />
+      <Link href={'/'}>home</Link>
       <Link href={'/about'}>about</Link>
       <Link href={'/aspnet'}>aspnet core</Link>
       <Link href={'/dotnet'}>dotnet core</Link>
