@@ -8,6 +8,14 @@ export default function Footer() {
           MIT license &copy; {appConfig.app.year}, {appConfig.app.author}.
         </p>
       </section>
+      <section>
+        <ul>
+          <li>
+            <a href={appConfig.app.github}>source code</a>
+          </li>
+          <li>version {appConfig.app.version}</li>
+        </ul>
+      </section>
     </div>
   )
 }
