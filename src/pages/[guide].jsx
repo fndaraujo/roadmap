@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
+import Subtitle from 'src/components/subtitle'
 
 export default function Guide() {
   const router = useRouter()
@@ -26,7 +27,7 @@ export default function Guide() {
       <Head>
         <title>Roadmap | {guide}</title>
       </Head>
-      <h2>{data.guide}</h2>
+      <Subtitle subtitle={data.guide} />
       {data.contents?.map((content) => (
         <p key={content.title}>{content.title}</p>
       ))}
