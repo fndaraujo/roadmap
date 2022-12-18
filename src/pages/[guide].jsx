@@ -26,7 +26,7 @@ export default function Guide() {
       <Head>
         <title>Roadmap | {guide}</title>
       </Head>
-      <p>Guide: {guide}</p>
+      <h2>{data.guide}</h2>
     </div>
   )
 }
