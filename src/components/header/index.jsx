@@ -1,6 +1,6 @@
+import Link from 'next/link'
 import Title from 'src/components/title'
 import appConfig from 'roadmap-config'
-import Link from 'next/link'
 
 export default function Header() {
   const productName = appConfig.app.product
