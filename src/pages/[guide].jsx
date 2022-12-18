@@ -27,6 +27,9 @@ export default function Guide() {
         <title>Roadmap | {guide}</title>
       </Head>
       <h2>{data.guide}</h2>
+      {data.contents?.map((content) => (
+        <p key={content.title}>{content.title}</p>
+      ))}
     </div>
   )
 }
