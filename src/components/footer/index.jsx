@@ -26,6 +26,9 @@ export default function Footer() {
             <Link href={'/about'}>about</Link>
           </li>
           <li>
+            <Link href={'/license'}>license</Link>
+          </li>
+          <li>
             <Link href={'/aspnet'}>aspnet core</Link>
           </li>
           <li>
