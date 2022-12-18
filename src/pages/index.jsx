@@ -38,6 +38,19 @@ export default function Home() {
         system.
       </p>
       <p>Source Wikipedia, 2022.</p>
+      <Subtitle subtitle={'asp.net'} />
+      <p>
+        ASP.NET is a free and open-source modular web framework which aims to
+        build modern web applications and services using the .NET framework as
+        its base.
+      </p>
+      <p>
+        Following the .NET framework, ASP.NET is primarily developed by
+        Microsoft Corporation and is sucessor of two other frameworks, ASP.NET
+        MVC and ASP.NET Web API, which were distributed with a closed-source
+        license and restricted to the Windows operating system.
+      </p>
+      <p>Source Wikipedia, 2022.</p>
     </>
   )
 }
