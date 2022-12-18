@@ -26,6 +26,18 @@ export default function Home() {
         routing, as well as certain client side funtionality.
       </p>
       <p>Source Wikipedia, 2022.</p>
+      <Subtitle subtitle={'.net'} />
+      <p>
+        .NET is a free, open-source and cross-platform managed computer software
+        framework that runs on Windows, MacOS and Linux operating systems,
+        primarily developed by the Microsoft Corporation.
+      </p>
+      <p>
+        .NET is sucessor of the framework of the same name, previously developed
+        in a close-source license and restricted to the Windows operating
+        system.
+      </p>
+      <p>Source Wikipedia, 2022.</p>
     </>
   )
 }
