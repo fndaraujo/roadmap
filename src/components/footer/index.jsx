@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import appConfig from 'roadmap-config'
 
 export default function Footer() {
@@ -14,6 +15,22 @@ export default function Footer() {
             <a href={appConfig.app.github}>source code</a>
           </li>
           <li>version {appConfig.app.version}</li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <Link href={'/'}>home</Link>
+          </li>
+          <li>
+            <Link href={'/aspnet'}>aspnet core</Link>
+          </li>
+          <li>
+            <Link href={'/dotnet'}>dotnet core</Link>
+          </li>
+          <li>
+            <Link href={'/reactjs'}>react js</Link>
+          </li>
         </ul>
       </section>
     </div>
