@@ -1,5 +1,7 @@
+import { StyledSubtitle } from 'src/components/subtitle/style'
+
 export default function Subtitle(props) {
-  return <h2>{props.subtitle}</h2>
+  return <StyledSubtitle>{props.subtitle}</StyledSubtitle>
 }
 
 Subtitle.defaultProps = {
