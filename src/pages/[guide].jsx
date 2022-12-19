@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import Subtitle from 'src/components/subtitle'
+import { StyledGuide } from 'src/styles/guide-style'
 
 export default function Guide() {
   const router = useRouter()
@@ -23,7 +24,7 @@ export default function Guide() {
   if (!data) return <p>No profile data</p>
 
   return (
-    <div>
+    <StyledGuide>
       <Head>
         <title>Roadmap | {guide}</title>
       </Head>
@@ -31,6 +32,6 @@ export default function Guide() {
       {data.contents?.map((content) => (
         <p key={content.title}>{content.title}</p>
       ))}
-    </div>
+    </StyledGuide>
   )
 }
