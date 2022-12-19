@@ -7,5 +7,14 @@
     "product": "Roadmap",
     "version": "0.1.0",
     "github": "https://github.com/fndaraujo/roadmap"
+  },
+  "palette": {
+    "default": {
+      "000": { "name": "xiketic", "value": "#181114" },
+      "100": { "name": "cerulean blue", "value": "#2b59c3" },
+      "200": { "name": "pacific blue", "value": "#22aed1" },
+      "300": { "name": "ghost white", "value": "#f8f4f9" },
+      "999": { "name": "orange web", "value": "#ffa400" }
+    }
   }
 }
