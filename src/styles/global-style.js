@@ -26,7 +26,7 @@ export const GlobalStyle = createGlobalStyle`
   // Default css.
   body {
     background-color: ${appConfig.palette.default['300'].value};
-    color: black;
+    color: ${appConfig.palette.default['000'].value};
     font-family: 'Times New Roman', Times, serif;
   }
 `
