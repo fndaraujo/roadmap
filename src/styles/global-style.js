@@ -1,3 +1,4 @@
+import appConfig from 'roadmap-config'
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
@@ -24,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
 
   // Default css.
   body {
-    background-color: ghostwhite;
+    background-color: ${appConfig.palette.default['300'].value};
     color: black;
     font-family: 'Times New Roman', Times, serif;
   }
