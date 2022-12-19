@@ -32,5 +32,10 @@ export const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
     color: ${appConfig.palette.default['100'].value};
+
+    :hover {
+      color: ${appConfig.palette.default['999'].value};
+      transition: 800ms;
+    }
   }
 `
