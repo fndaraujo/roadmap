@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import appConfig from 'roadmap-config'
+import { StyledFooter } from 'src/components/footer/style'
 
 export default function Footer() {
   return (
-    <div>
+    <StyledFooter>
       <section>
         <p>
           MIT license &copy; {appConfig.app.year}, {appConfig.app.author}.
@@ -39,6 +40,6 @@ export default function Footer() {
           </li>
         </ul>
       </section>
-    </div>
+    </StyledFooter>
   )
 }
