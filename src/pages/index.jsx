@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Subtitle from 'src/components/subtitle'
 import appConfig from 'roadmap-config'
+import { StyledIndex } from 'src/styles/index-style'
 
 export default function Home() {
   return (
-    <>
+    <StyledIndex>
       <Head>
         <title>{appConfig.app.product}</title>
       </Head>
@@ -51,6 +52,6 @@ export default function Home() {
         license and restricted to the Windows operating system.
       </p>
       <p>Source Wikipedia, 2022.</p>
-    </>
+    </StyledIndex>
   )
 }
