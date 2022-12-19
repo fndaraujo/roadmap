@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Subtitle from 'src/components/subtitle'
 import appConfig from 'roadmap-config'
+import { StyledLicense } from 'src/styles/license-style'
 
 export default function License() {
   return (
-    <>
+    <StyledLicense>
       <Head>
         <title>{appConfig.app.product} | License</title>
       </Head>
@@ -37,6 +38,6 @@ export default function License() {
           WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         </p>
       </section>
-    </>
+    </StyledLicense>
   )
 }
