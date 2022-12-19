@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Subtitle from 'src/components/subtitle'
 import appConfig from 'roadmap-config'
+import { StyledAbout } from 'src/styles/about-style'
 
 export default function About() {
   return (
-    <>
+    <StyledAbout>
       <Head>
         <title>{appConfig.app.product} | About</title>
       </Head>
@@ -15,6 +16,6 @@ export default function About() {
           with focus on the React and .NET technology and ecosystems.
         </p>
       </section>
-    </>
+    </StyledAbout>
   )
 }
