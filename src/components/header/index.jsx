@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import Title from 'src/components/title'
 import appConfig from 'roadmap-config'
+import { StyledHeader } from 'src/components/header/style'
 
 export default function Header() {
   const productName = appConfig.app.product
   return (
-    <div>
+    <StyledHeader>
       <Title title={productName} />
       <ul>
         <li>
@@ -26,6 +27,6 @@ export default function Header() {
           <Link href={'/reactjs'}>react js</Link>
         </li>
       </ul>
-    </div>
+    </StyledHeader>
   )
 }
