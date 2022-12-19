@@ -29,4 +29,8 @@ export const GlobalStyle = createGlobalStyle`
     color: ${appConfig.palette.default['000'].value};
     font-family: 'Times New Roman', Times, serif;
   }
+  a {
+    text-decoration: none;
+    color: ${appConfig.palette.default['100'].value};
+  }
 `
