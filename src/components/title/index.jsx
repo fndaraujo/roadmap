@@ -1,5 +1,7 @@
+import { StyledTitle } from 'src/components/title/style'
+
 export default function Title(props) {
-  return <h1>{props.title}</h1>
+  return <StyledTitle>{props.title}</StyledTitle>
 }
 
 Title.defaultProps = {
